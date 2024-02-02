@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sympa 6.2\n"
 "Report-Msgid-Bugs-To: https://translate.sympa.community\n"
-"POT-Creation-Date: 2023-12-30 09:47:29+0000\n"
-"PO-Revision-Date: 2023-01-20 08:54+0000\n"
-"Last-Translator: frifri <advocaat.pollet@pollet.legal>\n"
+"POT-Creation-Date: 2023-12-30 09:59:54+0000\n"
+"PO-Revision-Date: 2024-01-08 16:20+0000\n"
+"Last-Translator: iequa9Du <23la6k8dv@mozmail.com>\n"
 "Language-Team: Nederlands\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.8\n"
 "plural-forms: nplurals=2; plural=n != 1\n"
-"X-POOTLE-MTIME: 1674204896.000000\n"
+"X-POOTLE-MTIME: 1704730828.000000\n"
 
 #: src/libexec/ldap_alias_manager.pl.in:43
 #: src/libexec/mysql_alias_manager.pl.in:28
@@ -7732,9 +7732,9 @@ msgstr ""
 
 #. (message_template)
 #: default/web_tt2/manage_template.tt2:63
-#, fuzzy, smalltalk-format
+#, smalltalk-format
 msgid "Edit rejection message %1"
-msgstr "editor afwijzings bericht"
+msgstr "Bewerk afwijzingsbericht %1"
 
 #: default/web_tt2/manage_template.tt2:71
 msgid "Save Message"

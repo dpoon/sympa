@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sympa-6.1.20+, 6.2.16+\n"
 "Report-Msgid-Bugs-To: https://translate.sympa.community\n"
-"POT-Creation-Date: 2023-12-30 09:47:29+0000\n"
-"PO-Revision-Date: 2023-12-16 01:10+0000\n"
+"POT-Creation-Date: 2023-12-30 09:59:54+0000\n"
+"PO-Revision-Date: 2023-12-30 10:05+0000\n"
 "Last-Translator: IKEDA Soji <mail@ikedas.net>\n"
 "Language-Team: 日本語\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.8\n"
-"X-POOTLE-MTIME: 1702689022.000000\n"
+"X-POOTLE-MTIME: 1703930726.000000\n"
 
 #: src/libexec/ldap_alias_manager.pl.in:43
 #: src/libexec/mysql_alias_manager.pl.in:28
@@ -6387,8 +6387,8 @@ msgid ""
 "(this template is the default used by all domains unless redefined for a "
 "specific domain)"
 msgstr ""
-"(このテンプレートは、テンプレートを再定義しているようなロボットを除き、すべて"
-"のロボットで使います)"
+"(このテンプレートは、テンプレートを再定義しているようなドメインを除き、すべて"
+"のドメインで使います)"
 
 #. (robot)
 #: default/web_tt2/copy_template.tt2:24 default/web_tt2/edit_template.tt2:31
@@ -6398,8 +6398,8 @@ msgid ""
 "(this template is the default for all lists of domain %1 unless it is "
 "redefined for a specific list)"
 msgstr ""
-"(このテンプレートは、テンプレートを再定義しているようなリストを除き、%1 のロ"
-"ボットのすべてのリストで使います)"
+"(このテンプレートは、テンプレートを再定義しているようなリストを除き、%1 のド"
+"メインのすべてのリストで使います)"
 
 #. (list,robot)
 #: default/web_tt2/copy_template.tt2:27 default/web_tt2/edit_template.tt2:34
@@ -7697,7 +7697,7 @@ msgstr "新しいリスト"
 
 #: default/web_tt2/latest_lists.tt2:18
 msgid " The latest lists of this domain"
-msgstr " このロボットの最新のリスト "
+msgstr " このドメインで最近活動のあったリスト "
 
 #: default/web_tt2/list_menu.tt2:12 default/web_tt2/picture_upload.tt2:24
 #: default/web_tt2/picture_upload.tt2:27
@@ -7928,7 +7928,7 @@ msgid ""
 "because Sympa's update will over write these files)"
 msgstr ""
 "リストを特定でき、リスト専用のテンプレートがあればそれを適用する\n"
-"そうではなく、ロボット全体用のテンプレートがあればそれを適用する\n"
+"そうではなく、ドメイン全体用のテンプレートがあればそれを適用する\n"
 "そうではなく、独自に決めたテンプレートがあればそれを適用する\n"
 "さもなければ、インストール時からあるテンプレートを適用する (このテンプレート"
 "は変更できません。たとえ変更しても、Sympa がアップデートされると上書きされて"
@@ -7942,7 +7942,7 @@ msgid ""
 "current domain or the named list."
 msgstr ""
 "まず、特定のリスト専用のテンプレートにするものと、そうしないものとをリスト"
-"アップしましょう。次に、いまあるテンプレートを複写して、ロボット全体用のテン"
+"アップしましょう。次に、いまあるテンプレートを複写して、ドメイン全体用のテン"
 "プレートにするものと、特定のリスト専用のテンプレートにするものを用意してお"
 "き、それからテンプレートをひとつひとつ変更していくとよいでしょう。"
 
